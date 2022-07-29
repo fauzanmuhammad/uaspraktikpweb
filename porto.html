@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MUHAMMAD FAUZAN</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	</head>
+	<body>
+		
+		<!-- sidebar -->
+		<input type="checkbox" id="check">
+		<div class="sidebar">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+
+		<!-- bagian header -->
+		<header>
+			<div class="container">
+				<h1><a href="">MUHAMMAD FAUZAN</a></h1>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+				<!-- menu mobile -->
+				<label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+			</div>
+		</header>
+
+		<!-- bagian banner -->
+		<section class="banner">
+			<div class="container">
+				<div class="banner-left">
+					<img src="u.jpg"  >
+					<h2>Hai...<br>
+						Saya adalah seorang <span class="efek-ngetik"></span></h2>
+					<p>Selamat datang di website portfolio saya!</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- bagian about -->
+		<section id="about">
+			<div class="container">
+				<h3>About</h3>
+				<p> <center>Saya adalah seorang freelancer programer web dan front end developer,selain itu saya adalah seorang mahasiswa
+				di Salah satu Unniversitas Di Yogyakarta yaitu Unniversitas Ahmad Dahlan. Selain menjadi freelancer web saya adalah seorang streamer game kompetitif seperti Mobile legends dan Valorant</center></p>
+							</div>
+		</section>
+
+		<!-- bagian skills -->
+		<section id="skills">
+			<div class="container">
+				<h3>Skills</h3>
+				<h4>HTML</h4>
+				<div class="bar">
+					<span class="nilai html">100%</span>
+				</div>
+
+				<h4>CSS</h4>
+				<div class="bar">
+					<span class="nilai css">90%</span>
+				</div>
+
+				<h4>Javascript</h4>
+				<div class="bar">
+					<span class="nilai js">80%</span>
+				</div>
+
+				<h4>PHP</h4>
+				<div class="bar">
+					<span class="nilai php">95%</span>
+				</div>
+
+				<h4>Photoshop</h4>
+				<div class="bar">
+					<span class="nilai ps">85%</span>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- bagian portfolio -->
+		<section id="portfolio">
+			<div class="container">
+				<h3>Social Media</h3>
+				<div class="col-4">
+					<a href="https://www.instagram.com/__fznnnn/?hl=id">
+						<img src="ig.png">
+						<span>INSTAGRAM</span>
+					</a>
+				</div>
+
+				<div class="col-4">
+					<a href="https://www.facebook.com/fauzan.alvarro.7">
+						<img src="fb.png">
+						<span>FACEBOOK</span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!--For business-->
+		<section id="Format">
+			<div class="container">
+				<h3>Business</h3>
+				<br>
+				<br>
+				<header>Pesan jasa/kesan pesan</header>
+				<div align="center">
+					<form name="form1" method="post" action="data.php">
+						<table width="20%" border="0" align="center">
+							<tr>
+								<td>Nama Lengkap</td>
+								<td><input name="nama" type="text" id="nama"></td>
+							</tr>
+
+							<tr>
+								<td>Alamat</td>
+								<td><input name="alamat" type="text" id="alamat"></td>
+							</tr>
+
+							<tr>
+								<td>No Telp.</td>
+								<td><input name="kontak" type="text" id="kontak"></td> </tr>
+							</tr>
+
+							<tr>
+								<td>Pilih Jasa</td>
+								<td><select name="Jasa" id="Jasa">
+								<option>Web Programing</option>
+								<option>Backend</option>
+								<option>Front end</option>
+								<option>Fullstack</option>
+								<option>UI/UX Design</option>
+								</select></td>
+							</tr>
+
+							<tr>
+								<td>Catatan</td>
+								<td><textarea name="catatan" id="catatan"></textarea></td> </textarea>
+								</tr>
+
+								<tr>
+									<td>&nbsp;</td>
+									<td><input type="submit" name="Submit" value="Kirim"><input type="reset" name="Submit2" value="Batal">
+									</td>
+								</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- bagian contact -->
+		<section id="contact">
+			<div class="container">
+				<h3>Contact</h3>
+				<div class="col-3">
+					<h4>Alamat</h4>
+					<p>BENGKULU</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Email</h4>
+					<p>muhammadfauzan13031@gmail.com</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Telp/Hp</h4>
+					<p>081379100197</p>
+				</div>	
+			</div>
+		</section>
+
+		<!-- bagian footer -->
+		<footer>
+			<div class="container">
+				<small>Copyright &copy; 2022 - muhammadfauzan</small>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
